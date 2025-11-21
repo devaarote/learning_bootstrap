@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="images/cat logo.png" alt="cat" width="70"
+                        height="70">
+                    <h6 class="h-25 d-inline-block">Cat House</h6>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Gallery
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Cat Gallery</a></li>
+                                <li><a class="dropdown-item" href="#">Cat house photos</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- div.row>div.col-md-6 -->
+    <div class="container">
+        <div class="row ">
+            <div class="col-md-6">
+                <div class="row border border-primary">
+                    <h1>Contact Form</h1>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Enter Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Enter Name">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+                            <input type="number" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Enter Phone Number">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Alternate Phone Number</label>
+                            <input type="number" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Alternate Phone Number">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Zip Code</label>
+                            <input type="number" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Zip code">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="exampleFormControlInput1" class="form-label">Select State</label>
+                        <div class="form-floating mb-3">
+                            <label for="floatingInput">Select State</label>
+
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected></option>
+                                <option value="1">Maharastra</option>
+                                <option value="2">Goa</option>
+                                <option value="3">Rajasthan</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <label for="exampleFormControlInput1" class="form-label">Select City</label>
+                        <div class="form-floating mb-3">
+                            <label for="floatingInput">Select City</label>
+
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected></option>
+                                <option value="1">Pune</option>
+                                <option value="2">Nashik</option>
+                                <option value="3">Mumbai</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Address</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+            <div class="col-md-6"><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120976.61876147169!2d73.70974243470452!3d18.640677203838624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b8377fbdeab3%3A0x2c4265dab1a7a0f8!2sPimpri-Chinchwad%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1763719159635!5m2!1sen!2sin"
+                    width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
